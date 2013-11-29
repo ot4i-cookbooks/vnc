@@ -57,7 +57,8 @@ Attributes
 Usage
 -----
 Include `vnc` in your node's `run_list` to install and set up all VNC and desktop components.
-Once the recipe has been run on a node you will need to SSH to the node and perform the following commands to complete the configuration:
+Once the recipe has been run on a node you will need to SSH to the node, log in as root and perform the following commands
+to complete the configuration:
 
 ```
 su - <insert user name here, default vncuser>
