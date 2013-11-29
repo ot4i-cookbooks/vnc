@@ -14,12 +14,12 @@
 #
 # Recipe vnc::server
 #
-# Installs VNC server, LXDE desktop and Firefox for a complete remote desktop.
+# Installs VNC server, desktop and browser for a complete remote desktop.
 #
 ################################################################################
 
 
-log "Installing VNC Server and LXDE desktop" do
+log "Installing VNC Server, desktop and browser" do
   level :info
 end
 
