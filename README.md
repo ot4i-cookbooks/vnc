@@ -72,5 +72,5 @@ License and Authors
 -------------------
 Copyright 2013 IBM Corp. under the [Eclipse Public license](http://www.eclipse.org/legal/epl-v10.html).
 
-* Author:: Simon Holdsworth <simon\_holdsworth@uk.ibm.com>
+* Author:: Simon Holdsworth <hldswrth@uk.ibm.com>
 
