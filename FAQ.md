@@ -2,7 +2,9 @@ FAQ for the `vnc` cookbook
 ==========================================
 ##Questions:
 [Can I run the `vnc` recipes on a machine that already has VNC installed?](#Q1)
+
 [Can I run the `vnc` recipes using other VNC, desktop and browser implementations?](#Q2)
+
 [Does this recipe create a secure vnc connection?](#Q3)
     
 ------------------------------------------
