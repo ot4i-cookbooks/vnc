@@ -11,8 +11,6 @@ The cookbook creates a VNC server service and user account to under which the VN
 
 The components used in the default recipe are [TightVNC](http://www.tightvnc.com/), [LXDE](http://lxde.org/) and [Firefox](http://www.mozilla.org/en-US/firefox/all/), which are all installed using the latest versions from the standard Ubuntu repository. These were chosen for the default recipe as a working set but others work equally well, for example [x11vnc](http://en.wikipedia.org/wiki/X11vnc) for the VNC server, [XFCE4](http://www.xfce.org/) for the desktop and [Chrome](www.google.com/chrome) for the browser.  You will need to modify the creation of the vncservice and xstartup scripts in the default recipe if you want to use different VNC server and desktop implementations.
 
-The components referred to above are suggested by IBM as a working set, however, other products are available which will provide similar functionality.  IBM shall have no responsibility or liability in respect of any non-IBM products that are installed by the EPL Chef recipe.   These products are not licensed by IBM and are subject to the terms and conditions imposed by their respective Licensors.
-
 Requirements
 ------------
  
@@ -71,6 +69,8 @@ service vncserver start
 License and Authors
 -------------------
 Copyright 2013 IBM Corp. under the [Eclipse Public license](http://www.eclipse.org/legal/epl-v10.html).
+
+The component installations referred to above are suggested by the Author and Contributors as a working set, however, other products are available which will provide similar functionality.  The Author and Contributors shall have no responsibility or liability in respect of the products that are installed by the EPL Chef script.   These products are not licensed by the Author and are subject to the terms and conditions imposed by their respective Licensors.
 
 * Author:: Simon Holdsworth simon_holdsworth@uk.ibm.com
 
